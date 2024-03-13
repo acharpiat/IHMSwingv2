@@ -1,7 +1,7 @@
-package main.java.com.ubo.tp.message.ihm.message;
+package com.ubo.tp.message.ihm.message;
 
-import main.java.com.ubo.tp.message.datamodel.Message;
-import main.resources.ImagePanel;
+import com.ubo.tp.message.datamodel.Message;
+import com.ubo.tp.message.ihm.ImagePanel;
 
 import javax.swing.*;
 import java.awt.*;

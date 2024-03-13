@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.core;
+package com.ubo.tp.message.core;
 
 import java.io.File;
 import java.util.HashMap;
@@ -7,16 +7,16 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 
-import main.java.com.ubo.tp.message.common.Constants;
-import main.java.com.ubo.tp.message.core.database.IDatabase;
-import main.java.com.ubo.tp.message.core.directory.IWatchableDirectoryObserver;
-import main.java.com.ubo.tp.message.datamodel.Message;
-import main.java.com.ubo.tp.message.datamodel.User;
-import main.java.com.ubo.tp.message.datamodel.converter.XmlbeanDatamodelConverter;
-import main.java.com.ubo.tp.message.datamodel.jaxb.JaxbReader;
-import main.java.com.ubo.tp.message.datamodel.jaxb.JaxbWriter;
-import main.java.com.ubo.tp.message.datamodel.jaxb.bean.message.MessageXml;
-import main.java.com.ubo.tp.message.datamodel.jaxb.bean.user.UserXml;
+import com.ubo.tp.message.common.Constants;
+import com.ubo.tp.message.core.database.IDatabase;
+import com.ubo.tp.message.core.directory.IWatchableDirectoryObserver;
+import com.ubo.tp.message.datamodel.Message;
+import com.ubo.tp.message.datamodel.User;
+import com.ubo.tp.message.datamodel.converter.XmlbeanDatamodelConverter;
+import com.ubo.tp.message.datamodel.jaxb.JaxbReader;
+import com.ubo.tp.message.datamodel.jaxb.JaxbWriter;
+import com.ubo.tp.message.datamodel.jaxb.bean.message.MessageXml;
+import com.ubo.tp.message.datamodel.jaxb.bean.user.UserXml;
 
 /**
  * Classe de gestion de la mise à jour de la base de données et de génération

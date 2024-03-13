@@ -1,15 +1,15 @@
-package main.java.com.ubo.tp.message.datamodel.converter;
+package com.ubo.tp.message.datamodel.converter;
 
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 
-import main.java.com.ubo.tp.message.common.Constants;
-import main.java.com.ubo.tp.message.datamodel.Message;
-import main.java.com.ubo.tp.message.datamodel.User;
-import main.java.com.ubo.tp.message.datamodel.jaxb.bean.message.MessageXml;
-import main.java.com.ubo.tp.message.datamodel.jaxb.bean.user.UserXml;
+import com.ubo.tp.message.common.Constants;
+import com.ubo.tp.message.datamodel.Message;
+import com.ubo.tp.message.datamodel.User;
+import com.ubo.tp.message.datamodel.jaxb.bean.message.MessageXml;
+import com.ubo.tp.message.datamodel.jaxb.bean.user.UserXml;
 
 /**
  * Classe de gestion des conversion des objets entre le datamodle et les bean

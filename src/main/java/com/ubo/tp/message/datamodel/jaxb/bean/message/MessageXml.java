@@ -5,7 +5,7 @@
 // Generated on: 2015.02.22 at 04:58:02 PM CET
 //
 
-package main.java.com.ubo.tp.message.datamodel.jaxb.bean.message;
+package com.ubo.tp.message.datamodel.jaxb.bean.message;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

@@ -6,4 +6,4 @@
 //
 
 @javax.xml.bind.annotation.XmlSchema(namespace = "http://www.example.org/message/")
-package main.java.com.ubo.tp.message.datamodel.jaxb.bean.message;
+package com.ubo.tp.message.datamodel.jaxb.bean.message;

@@ -5,7 +5,7 @@
 // Generated on: 2015.02.22 at 04:58:02 PM CET
 //
 
-package main.java.com.ubo.tp.message.datamodel.jaxb.bean.message;
+package com.ubo.tp.message.datamodel.jaxb.bean.message;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;
@@ -15,7 +15,7 @@ import javax.xml.namespace.QName;
 /**
  * This object contains factory methods for each Java content interface and Java
  * element interface generated in the
- * main.java.com.ubo.tp.message.jaxb.bean.message package.
+ * com.ubo.tp.message.jaxb.bean.message package.
  * <p>
  * An ObjectFactory allows you to programatically construct new instances of the
  * Java representation for XML content. The Java representation of XML content
@@ -31,7 +31,7 @@ public class ObjectFactory {
 
 	/**
 	 * Create a new ObjectFactory that can be used to create new instances of schema
-	 * derived classes for package: main.java.com.ubo.tp.message.jaxb.bean.message
+	 * derived classes for package: com.ubo.tp.message.jaxb.bean.message
 	 *
 	 */
 	public ObjectFactory() {

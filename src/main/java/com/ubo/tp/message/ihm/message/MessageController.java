@@ -1,12 +1,12 @@
-package main.java.com.ubo.tp.message.ihm.message;
+package com.ubo.tp.message.ihm.message;
 
-import main.java.com.ubo.tp.message.core.EntityManager;
-import main.java.com.ubo.tp.message.core.database.IDatabase;
-import main.java.com.ubo.tp.message.datamodel.User;
-import main.java.com.ubo.tp.message.ihm.session.Session;
-import main.java.com.ubo.tp.message.datamodel.Message;
-import main.java.com.ubo.tp.message.ihm.session.SessionController;
-import main.java.com.ubo.tp.message.ihm.signin.SignInController;
+import com.ubo.tp.message.core.EntityManager;
+import com.ubo.tp.message.core.database.IDatabase;
+import com.ubo.tp.message.datamodel.User;
+import com.ubo.tp.message.ihm.session.Session;
+import com.ubo.tp.message.datamodel.Message;
+import com.ubo.tp.message.ihm.session.SessionController;
+import com.ubo.tp.message.ihm.signin.SignInController;
 
 import javax.swing.*;
 import java.awt.*;
