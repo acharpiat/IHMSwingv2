@@ -1,7 +1,7 @@
-package main.java.com.ubo.tp.message.ihm.MessageList;
+package com.ubo.tp.message.ihm.MessageList;
 
-import main.java.com.ubo.tp.message.datamodel.Message;
-import main.java.com.ubo.tp.message.ihm.message.MessageComponent;
+import com.ubo.tp.message.datamodel.Message;
+import com.ubo.tp.message.ihm.message.MessageComponent;
 
 import javax.swing.*;
 import java.awt.*;

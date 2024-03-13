@@ -1,8 +1,8 @@
-package main.java.com.ubo.tp.message.ihm;
+package com.ubo.tp.message.ihm;
 
-import main.java.com.ubo.tp.message.core.EntityManager;
-import main.java.com.ubo.tp.message.core.database.IDatabase;
-import main.java.com.ubo.tp.message.ihm.session.Session;
+import com.ubo.tp.message.core.EntityManager;
+import com.ubo.tp.message.core.database.IDatabase;
+import com.ubo.tp.message.ihm.session.Session;
 
 
 import javax.swing.*;

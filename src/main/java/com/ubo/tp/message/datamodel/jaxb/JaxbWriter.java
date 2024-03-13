@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.datamodel.jaxb;
+package com.ubo.tp.message.datamodel.jaxb;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -6,9 +6,9 @@ import java.io.FileWriter;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 
-import main.java.com.ubo.tp.message.common.FilesUtils;
-import main.java.com.ubo.tp.message.datamodel.jaxb.bean.message.MessageXml;
-import main.java.com.ubo.tp.message.datamodel.jaxb.bean.user.UserXml;
+import com.ubo.tp.message.common.FilesUtils;
+import com.ubo.tp.message.datamodel.jaxb.bean.message.MessageXml;
+import com.ubo.tp.message.datamodel.jaxb.bean.user.UserXml;
 
 /**
  * Classe de génération des fichiers XML.

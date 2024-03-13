@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.ihm.signin;
+package com.ubo.tp.message.ihm.signin;
 
 import javax.swing.*;
 import java.awt.*;

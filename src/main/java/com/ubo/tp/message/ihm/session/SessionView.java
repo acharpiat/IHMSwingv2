@@ -1,6 +1,6 @@
-package main.java.com.ubo.tp.message.ihm.session;
+package com.ubo.tp.message.ihm.session;
 
-import main.java.com.ubo.tp.message.datamodel.User;
+import com.ubo.tp.message.datamodel.User;
 
 import javax.swing.*;
 import java.awt.*;
