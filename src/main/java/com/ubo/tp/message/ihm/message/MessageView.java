@@ -101,11 +101,5 @@ public class MessageView extends JPanel{
         JOptionPane.showMessageDialog(this, list);
     }
 
-    public void showMessagesList(Set<Message> messages){
-        for(int i = 0; i < messages.size(); i++){
-            messagePanel.add(new MessageComponent(new ArrayList<>(messages).get(i).getText()), new GridBagConstraints(0,i, 1, 1, 1, 1, GridBagConstraints.CENTER,
-                    GridBagConstraints.HORIZONTAL, new Insets(5, 5, 5, 5), 0, 0));
-        }
-        messagePanel.revalidate();
-    }
+
 }

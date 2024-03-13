@@ -8,6 +8,7 @@ import main.java.com.ubo.tp.message.core.directory.IWatchableDirectory;
 import main.java.com.ubo.tp.message.core.directory.WatchableDirectory;
 import main.java.com.ubo.tp.message.datamodel.Message;
 import main.java.com.ubo.tp.message.datamodel.User;
+import main.java.com.ubo.tp.message.ihm.MessageList.MessageListController;
 import main.java.com.ubo.tp.message.ihm.login.LoginController;
 import main.java.com.ubo.tp.message.ihm.message.MessageComponent;
 import main.java.com.ubo.tp.message.ihm.message.MessageController;
@@ -70,6 +71,8 @@ public class MessageApp implements ISessionObserver {
 
 	protected MessageController messageController;
 
+	protected MessageListController messageListController;
+
 
 
 	/**
@@ -87,6 +90,7 @@ public class MessageApp implements ISessionObserver {
 		this.mDatabaseObserver = new DatabaseImpl();
 		this.sessionController = new SessionController(mDatabase, mEntityManager, session);
 		this.messageController = new MessageController(mDatabase, mEntityManager, session);
+		this.messageListController = new MessageListController(mDatabase, mEntityManager, session);
 
 
 		mDatabase.addObserver(mDatabaseObserver);
@@ -154,9 +158,12 @@ public class MessageApp implements ISessionObserver {
 		mMainView.addMessageListener(() -> {
 			mMainView.setPane(messageController.getView());
 		});
+		mMainView.addListMessageListener(() -> {
+			mMainView.setPane(messageListController.getView());
+		});
 
 		mMainView.addLastMessageListener(() -> {
-			MessageComponent messageComponent = new MessageComponent(new ArrayList<>(mDatabase.getMessages()).get(mDatabase.getMessages().size()-1).getText());
+			MessageComponent messageComponent = new MessageComponent(new ArrayList<>(mDatabase.getMessages()).get(mDatabase.getMessages().size()-1));
 
 			System.out.println("Last message : " + mDatabase.getMessages());
 			JOptionPane.showMessageDialog(null, messageComponent.getMessage(), "A propos", JOptionPane.INFORMATION_MESSAGE, logoUbo50);

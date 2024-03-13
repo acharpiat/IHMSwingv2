@@ -96,9 +96,7 @@ public class MessageController {
             mMessageView.afficherMessages(finalString);
 
         });
-        mMessageView.addMessageListListener(() -> {
-            mMessageView.showMessagesList(mDatabase.getMessages());
-        });
+
     }
 
     public JPanel getView() {

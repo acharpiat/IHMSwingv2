@@ -1,17 +1,31 @@
 package main.java.com.ubo.tp.message.ihm.message;
 
-import javax.swing.*;
+import main.java.com.ubo.tp.message.datamodel.Message;
+import main.resources.ImagePanel;
 
-public class MessageComponent extends JComponent {
+import javax.swing.*;
+import java.awt.*;
+import java.io.File;
+
+public class MessageComponent extends JPanel {
 
     JLabel m;
-    public MessageComponent(String message) {
+    public MessageComponent(Message message) {
         super();
-
-        m = new JLabel(message);
-
-        setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-
+        if(message.getSender().getAvatarPath() == null){
+            message.getSender().setAvatarPath("D:\\M2\\IHM\\LUCAS\\MessageApp\\src\\main\\resources\\images\\img_2.png");
+        }
+        File file = new File(message.getSender().getAvatarPath());
+        ImagePanel imagePanel = new ImagePanel(file, new Dimension(80, 100));
+        m = new JLabel(message.getText());
+        JPanel customPanel = new JPanel();
+        customPanel.add(m);
+        customPanel.add(imagePanel);
+        customPanel.setLayout(new GridBagLayout());
+        setLayout(new GridBagLayout());
+        add(customPanel, new GridBagConstraints(0, 0, 1, 1, 1, 1, GridBagConstraints.CENTER,
+                GridBagConstraints.BOTH, new Insets(5, 5, 5, 5), 0, 0));
+        setBackground(Color.lightGray);
         add(m);
 
     }

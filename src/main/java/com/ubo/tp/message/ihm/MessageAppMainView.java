@@ -35,6 +35,8 @@ public class MessageAppMainView {
 	protected JMenuItem aboutMenuItem;
 
 	protected JMenuItem disconnectMenuItem;
+
+	protected JMenuItem listMessageMenuItem;
 	protected JMenuItem exitMenuItem;
 
 	protected JMenuItem messageMenuItem;
@@ -130,6 +132,7 @@ public class MessageAppMainView {
 		JMenu messageMenu = new JMenu("Message");
 		messageMenuItem = new JMenuItem(" Envoyer un message");
 		lastMessageMenuItem = new JMenuItem("Voir dernier message reçu");
+		listMessageMenuItem = new JMenuItem("Voir la liste des messages");
 
 		JMenu aboutMenu = new JMenu("?");
 		aboutMenuItem = new JMenuItem("A propos");
@@ -144,6 +147,7 @@ public class MessageAppMainView {
 		disconnectMenuItem = new JMenuItem("Se déconnecter");
 
 
+		messageMenu.add(listMessageMenuItem);
 		messageMenu.add(lastMessageMenuItem);
 		messageMenu.add(messageMenuItem);
 		aboutMenu.add(aboutMenuItem);
@@ -222,5 +226,8 @@ public class MessageAppMainView {
 	}
 
 	public void addLastMessageListener(Runnable runnable) {lastMessageMenuItem.addActionListener(e -> runnable.run());
+	}
+
+	public void addListMessageListener(Runnable runnable) {listMessageMenuItem.addActionListener(e -> runnable.run());
 	}
 }
