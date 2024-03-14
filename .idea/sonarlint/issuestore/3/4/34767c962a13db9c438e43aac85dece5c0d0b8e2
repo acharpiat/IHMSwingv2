@@ -1,0 +1,32 @@
+
+]
+java:S1192‘"FDefine a constant instead of duplicating this literal "Error" 4 times.(üáÃó
+o
+java:S1192c"TDefine a constant instead of duplicating this literal "Utilisateur inconnu" 3 times.(¥Ğ‹³üÿÿÿÿ
+2
+java:S16439"Use a StringBuilder instead.(®´Ù¹
+
+java:S1186º"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(µ¿¾¹úÿÿÿÿ
+˜
+java:S1186Ñ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ù˜·Û
+
+java:S1186Ö"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(µ°Ÿïıÿÿÿÿ
+
+java:S1186Û"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áÄ©Ñüÿÿÿÿ
+
+java:S1186à"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( ßÿâÿÿÿÿÿ
+˜
+java:S1186å"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(é‚Œ
+h
+java:S3776/"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(¨ÂÒ”
+F	java:S106"+Replace this use of System.out by a logger.(ĞªÀäûÿÿÿÿ
+A	java:S106¦"+Replace this use of System.out by a logger.(©‡¬–
+2
+java:S3626Ã"Remove this redundant jump.(ûÁİ…
+2
+java:S3626È"Remove this redundant jump.(ûÁİ…
+A	java:S106Æ"+Replace this use of System.out by a logger.(ĞæÈÍ
+C
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX
+F
+java:S1128"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ

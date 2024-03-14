@@ -1,0 +1,26 @@
+
+H
+java:S1602ƒ",Remove useless curly braces around statement(ñó˜şÿÿÿÿ
+B
+java:S1602‡",Remove useless curly braces around statement(ûò”
+H
+java:S1602",Remove useless curly braces around statement(»ïå£ûÿÿÿÿ
+C
+java:S1602’",Remove useless curly braces around statement(öÆÅ
+C
+java:S1602–",Remove useless curly braces around statement(ü¯³ˆ
+H
+java:S1602š",Remove useless curly braces around statement(º„Â•úÿÿÿÿ
+H
+java:S1602",Remove useless curly braces around statement(îü°øÿÿÿÿ
+H
+java:S1602¡",Remove useless curly braces around statement(ë¬¸Áúÿÿÿÿ
+F	java:S106¨"+Replace this use of System.out by a logger.(Ú”ä°şÿÿÿÿ
+W	java:S125¼"<This block of commented-out lines of code should be removed.(ÍŠ³ùıÿÿÿÿ
+F	java:S106à"+Replace this use of System.out by a logger.(øğ…ûÿÿÿÿ
+m
+java:S1128	"KRemove this unused import 'main.java.com.ubo.tp.message.datamodel.Message'.(‚™üŞÿÿÿÿÿ8á±©âã1
+o
+java:S1128"MRemove this unused import 'main.java.com.ubo.tp.message.ihm.login.LoginView'.(»õøøşÿÿÿÿ8á±©âã1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8á±©âã1
